@@ -1,0 +1,2003 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	<product>
+		<category>CLASSIC</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>FOAM</name>
+		<description>sponbona audums
+porolons 10 cm
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>110</augstums_mm>
+				<price_eur_no_vat>39.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>110</augstums_mm>
+				<price_eur_no_vat>44</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>110</augstums_mm>
+				<price_eur_no_vat>50.2</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>110</augstums_mm>
+				<price_eur_no_vat>56.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>110</augstums_mm>
+				<price_eur_no_vat>67.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>110</augstums_mm>
+				<price_eur_no_vat>74.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>110</augstums_mm>
+				<price_eur_no_vat>85.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>110</augstums_mm>
+				<price_eur_no_vat>93.4</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>CLASSIC</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>SPRING PPU-18</name>
+		<description>vatelīns
+porolons 2 cm
+vatelīns, sponbona audums
+atsperu bloks «Bonnell» 
+porolons 2 cm
+vatelīns
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>58.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>64</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>69.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>80.2</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>93.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>104.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>116.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>128.5</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>CLASSIC</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>SPRING PPU</name>
+		<description>vatelīns
+porolons 3 cm
+vatelīns, sponbona audums
+atsperu bloks «Bonnell» 
+porolons 3 cm
+vatelīns
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>60.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>66.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>72.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>84.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>98.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>110</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>123.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>134.8</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>CLASSIC</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>SPRING KOKO</name>
+		<description>aitas vilna 
+2 cm kokosa plāksne
+vatelīns, sponbona audums
+atsperu bloks «Bonnell» 
+2 cm kokosa plāksne
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>74</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>81.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>89.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>103.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>121.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>135.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>152.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>166.7</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>CLASSIC</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>SERENITY</name>
+		<description>aitas vilna
+3 cm augsta jūras zāle
+vatelīns, sponbona audums
+atsperu bloks «Bonnell» 
+2 cm kokosa plāksne
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>76</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>83.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>91.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>106.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>124.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>139.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>156.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>171.7</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>CLASSIC</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>AMELIJA</name>
+		<description>aitas vilna 
+3 cm augsts latekss
+vatelīns, sponbona audums
+atsperu bloks «Bonnell» 
+2 cm kokosa plāksne
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>88.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>97.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>107.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>125.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>146.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>164.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>184.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>203.2</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>CLASSIC</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>TFK PPU-18</name>
+		<description>kokvilna
+2 cm poorolona plāksne
+vatelīns, sponbona audums
+«Pocket Spring» 12 cm
+2 cm poorolona plāksne
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>68.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>76.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>83</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>94.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>111.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>122.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>138.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>170</augstums_mm>
+				<price_eur_no_vat>150.2</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>CLASSIC</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>TFK SERENITY</name>
+		<description>aitas vilna
+3 cm augsta jūras zāle
+vatelīns, sponbona audums
+«Pocket Spring» 14 cm
+2 cm kokosa plāksne
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>95</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>106.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>114.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>131.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>155</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>171.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>192.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>209.5</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>CLASSIC</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>TFK AMELIJA</name>
+		<description>aitas vilna
+3 cm Clima latekss
+vatelīns, sponbona audums
+«Pocket Spring» 14 cm
+2 cm kokosa plāksne
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>104.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>116.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>126.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>145.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>171.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>190.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>213.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>190</augstums_mm>
+				<price_eur_no_vat>233.4</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>CLASSIC</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>TFK LINDA</name>
+		<description>aitas vilna 
+Clima latekss
+vatelīns, sponbona audums
+«Pocket Spring» 14 cm 
+Clima latekss
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>200</augstums_mm>
+				<price_eur_no_vat>116.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>200</augstums_mm>
+				<price_eur_no_vat>129.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>200</augstums_mm>
+				<price_eur_no_vat>141</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>200</augstums_mm>
+				<price_eur_no_vat>162.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>200</augstums_mm>
+				<price_eur_no_vat>191.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>200</augstums_mm>
+				<price_eur_no_vat>213.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>200</augstums_mm>
+				<price_eur_no_vat>239.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>200</augstums_mm>
+				<price_eur_no_vat>262.3</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>CLASSIC</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>TFK RELAX</name>
+		<description>aitas vilna 
+Clima latekss
+vatelīns, sponbona audums
+«Pocket Spring» 14 cm 
+2 cm kokosa plāksne
+Clima latekss
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>220</augstums_mm>
+				<price_eur_no_vat>128.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>220</augstums_mm>
+				<price_eur_no_vat>143.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>220</augstums_mm>
+				<price_eur_no_vat>155.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>220</augstums_mm>
+				<price_eur_no_vat>181.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>220</augstums_mm>
+				<price_eur_no_vat>213.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>220</augstums_mm>
+				<price_eur_no_vat>238.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>220</augstums_mm>
+				<price_eur_no_vat>267.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>220</augstums_mm>
+				<price_eur_no_vat>294.2</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>CLASSIC</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>GRACIA</name>
+		<description>aitas vilna 
+12 cm augsts latekss
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>130</augstums_mm>
+				<price_eur_no_vat>114.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>130</augstums_mm>
+				<price_eur_no_vat>134</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>130</augstums_mm>
+				<price_eur_no_vat>145.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>130</augstums_mm>
+				<price_eur_no_vat>164.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>130</augstums_mm>
+				<price_eur_no_vat>198</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>130</augstums_mm>
+				<price_eur_no_vat>220.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>130</augstums_mm>
+				<price_eur_no_vat>252.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>130</augstums_mm>
+				<price_eur_no_vat>274.4</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>CLASSIC</category>
+		<subcategory>Standart**</subcategory>
+		<name>SHINE</name>
+		<description>aitas vilna
+Clima latekss
+2 cm kokosa plāksne
+12 cm augsts latekss
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>151.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>176.2</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>190.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>221.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>261.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>291.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>332.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>364.3</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>CLASSIC</category>
+		<subcategory>Standart**</subcategory>
+		<name>IDEAL</name>
+		<description>aitas vilna
+Clima latekss, 1 gab.
+2 cm kokosa plāksne, 3 gab.
+2 cm augsts latekss, 2 gab.
+2 cm HR foam,
+3 cm augsta jūras zāle
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>150.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>169.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>185.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>218.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>254.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>283.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>322.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>180</augstums_mm>
+				<price_eur_no_vat>356.7</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>KIDS</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>VIVA</name>
+		<description>aitas vilna
+2 cm augsta kokosa plāksne
+2 cm augsts latekss
+2 cm augsta kokosa plāksne
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>1200</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>40.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>1400</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>50.15</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>55.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>63.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>69.85</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>79.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>86</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>102.5</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>KIDS</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>YOLA</name>
+		<description>aitas vilna
+2 cm augsts latekss
+4 cm augsta kokosa plāksne
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>1200</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>40.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>1400</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>50.15</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>55.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>63.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>69.85</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>79.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>86</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>102.5</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>KIDS</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>MUSA</name>
+		<description>kokvilna
+2 cm augsts latekss
+3 cm augsta kokosa plāksne
+3 cm augsts HR foam
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>1200</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>90</augstums_mm>
+				<price_eur_no_vat>44.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>1400</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>90</augstums_mm>
+				<price_eur_no_vat>53.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>90</augstums_mm>
+				<price_eur_no_vat>59.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>90</augstums_mm>
+				<price_eur_no_vat>68.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>90</augstums_mm>
+				<price_eur_no_vat>75.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>90</augstums_mm>
+				<price_eur_no_vat>84</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>90</augstums_mm>
+				<price_eur_no_vat>91.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>90</augstums_mm>
+				<price_eur_no_vat>109.5</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>KIDS</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>FLORA</name>
+		<description>aitas vilna
+3 cm augsta jūras zāle
+2 cm augsta kokosa plāksne
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>1200</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>60</augstums_mm>
+				<price_eur_no_vat>32.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>1400</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>60</augstums_mm>
+				<price_eur_no_vat>40.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>60</augstums_mm>
+				<price_eur_no_vat>45.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>60</augstums_mm>
+				<price_eur_no_vat>50.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>60</augstums_mm>
+				<price_eur_no_vat>55.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>60</augstums_mm>
+				<price_eur_no_vat>63.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>60</augstums_mm>
+				<price_eur_no_vat>69.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>60</augstums_mm>
+				<price_eur_no_vat>80.8</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>KIDS</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>PLUTO</name>
+		<description>aitas vilna
+2 cm augsta kokosa plāksne
+2 cm augsts porolons
+2 cm augsta kokosa plāksne
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>1200</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>34.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>1400</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>43</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>46.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>52.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>57.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>66.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>71</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>84.3</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>KIDS</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>JUNO</name>
+		<description>aitas vilna
+6 cm augsta kokosa plāksne
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>1200</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>38.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>1400</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>48</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>52.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>59.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>65</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>74.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>80.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>95.1</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>KIDS</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>ALTA-6</name>
+		<description>kokvilna
+2 cm augsta kokosa plāksne
+4 cm augsts porolons
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>1200</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>29.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>1400</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>36.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>39.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>44.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>48</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>55.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>59.2</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>70</augstums_mm>
+				<price_eur_no_vat>69.7</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>KIDS</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>ALTA-8</name>
+		<description>kokvilna
+2 cm augsta kokosa plāksne
+6 cm augsts porolons
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>1200</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>90</augstums_mm>
+				<price_eur_no_vat>32</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>1400</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>90</augstums_mm>
+				<price_eur_no_vat>39.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>90</augstums_mm>
+				<price_eur_no_vat>42.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>90</augstums_mm>
+				<price_eur_no_vat>48.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>90</augstums_mm>
+				<price_eur_no_vat>52.2</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>90</augstums_mm>
+				<price_eur_no_vat>60.2</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>90</augstums_mm>
+				<price_eur_no_vat>64.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>90</augstums_mm>
+				<price_eur_no_vat>76.1</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>KIDS</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>ALTA-10 PPU</name>
+		<description>kokvilna
+2 cm augsta kokosa plāksne
+7 cm augsts porolons
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>1200</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>33</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>1400</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>40.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>44.2</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>50.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>54.2</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>62.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>67.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>79.1</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>KIDS</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>ALTA-10 KOKO</name>
+		<description>kokvilna
+3 cm augsta kokosa plāksne
+6 cm augsts porolons
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>1200</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>35</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>1400</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>43.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>47.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>53.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>58.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>67.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>72.2</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>85</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>KIDS</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>LOLA-10</name>
+		<description>kokvilna
+3 cm augsts latekss
+6 cm augsts HR foam
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>1200</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>45.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>1400</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>54.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>60.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>71</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>78.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>89.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>97.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>114.4</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>KIDS</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>PRINCE</name>
+		<description>aitas vilna
+Clima latekss
+5 cm zirgu astri
+2 cm augsta kokosa plāksne
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>1200</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>85.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>1400</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>99.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>600</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>109.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>700</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>122.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>138.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>154.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>174.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>100</augstums_mm>
+				<price_eur_no_vat>198.7</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>TOPPER</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>CLIMA</name>
+		<description>aitas vilna
+3 cm augsts Clima latekss
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>35</augstums_mm>
+				<price_eur_no_vat>47.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>35</augstums_mm>
+				<price_eur_no_vat>52.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>35</augstums_mm>
+				<price_eur_no_vat>57.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>35</augstums_mm>
+				<price_eur_no_vat>67.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>35</augstums_mm>
+				<price_eur_no_vat>78.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>35</augstums_mm>
+				<price_eur_no_vat>88.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>35</augstums_mm>
+				<price_eur_no_vat>99.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>35</augstums_mm>
+				<price_eur_no_vat>110.7</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>TOPPER</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>KOKO</name>
+		<description>aitas vilna
+2 cm augsta kokosa plāksne
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>30</augstums_mm>
+				<price_eur_no_vat>36</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>30</augstums_mm>
+				<price_eur_no_vat>39</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>30</augstums_mm>
+				<price_eur_no_vat>42.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>30</augstums_mm>
+				<price_eur_no_vat>50.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>30</augstums_mm>
+				<price_eur_no_vat>58.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>30</augstums_mm>
+				<price_eur_no_vat>65.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>30</augstums_mm>
+				<price_eur_no_vat>74.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>30</augstums_mm>
+				<price_eur_no_vat>82</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>TOPPER</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>EKO KOKO</name>
+		<description>aitas vilna
+3 cm augsta jūras zāle
+2 cm augsta kokosa plāksne
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>55</augstums_mm>
+				<price_eur_no_vat>49.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>55</augstums_mm>
+				<price_eur_no_vat>55.2</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>55</augstums_mm>
+				<price_eur_no_vat>61</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>55</augstums_mm>
+				<price_eur_no_vat>72</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>55</augstums_mm>
+				<price_eur_no_vat>83.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>55</augstums_mm>
+				<price_eur_no_vat>94.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>55</augstums_mm>
+				<price_eur_no_vat>106.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>55</augstums_mm>
+				<price_eur_no_vat>117.6</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>TOPPER</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>CLIMA KOKO</name>
+		<description>aitas vilna
+3 cm augsts Clima latekss
+2 cm augsta kokosa plāksne
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>55</augstums_mm>
+				<price_eur_no_vat>62.2</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>55</augstums_mm>
+				<price_eur_no_vat>69.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>55</augstums_mm>
+				<price_eur_no_vat>76.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>55</augstums_mm>
+				<price_eur_no_vat>90.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>55</augstums_mm>
+				<price_eur_no_vat>105.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>55</augstums_mm>
+				<price_eur_no_vat>119.4</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>55</augstums_mm>
+				<price_eur_no_vat>134.2</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>55</augstums_mm>
+				<price_eur_no_vat>148.7</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>TOPPER</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>CLIMA HR</name>
+		<description>aitas vilna
+3 cm augsts Clima latekss
+3 cm augsta HR plāksne
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>60</augstums_mm>
+				<price_eur_no_vat>57.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>60</augstums_mm>
+				<price_eur_no_vat>64.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>60</augstums_mm>
+				<price_eur_no_vat>71.2</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>60</augstums_mm>
+				<price_eur_no_vat>83.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>60</augstums_mm>
+				<price_eur_no_vat>97</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>60</augstums_mm>
+				<price_eur_no_vat>110.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>60</augstums_mm>
+				<price_eur_no_vat>123.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>60</augstums_mm>
+				<price_eur_no_vat>137.1</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>TOPPER</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>PPU</name>
+		<description>kokvilna
+3 cm augsts porolons
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>35</augstums_mm>
+				<price_eur_no_vat>27.1</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>35</augstums_mm>
+				<price_eur_no_vat>31.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>35</augstums_mm>
+				<price_eur_no_vat>32.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>35</augstums_mm>
+				<price_eur_no_vat>38.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>35</augstums_mm>
+				<price_eur_no_vat>44.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>35</augstums_mm>
+				<price_eur_no_vat>50.7</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>35</augstums_mm>
+				<price_eur_no_vat>55.6</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>35</augstums_mm>
+				<price_eur_no_vat>62</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+	<product>
+		<category>TOPPER</category>
+		<subcategory>STANDART / FOG</subcategory>
+		<name>DUO</name>
+		<description>4 cm DUO latex
+kokvilna
+noņemams stepēts apvalks</description>
+		<suboptions>
+			<suboption id="1">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>800</platums_mm>
+				<augstums_mm>45</augstums_mm>
+				<price_eur_no_vat>60.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="2">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>900</platums_mm>
+				<augstums_mm>45</augstums_mm>
+				<price_eur_no_vat>67.2</price_eur_no_vat>
+			</suboption>
+			<suboption id="3">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1000</platums_mm>
+				<augstums_mm>45</augstums_mm>
+				<price_eur_no_vat>74.9</price_eur_no_vat>
+			</suboption>
+			<suboption id="4">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1200</platums_mm>
+				<augstums_mm>45</augstums_mm>
+				<price_eur_no_vat>88.3</price_eur_no_vat>
+			</suboption>
+			<suboption id="5">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1400</platums_mm>
+				<augstums_mm>45</augstums_mm>
+				<price_eur_no_vat>103.5</price_eur_no_vat>
+			</suboption>
+			<suboption id="6">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1600</platums_mm>
+				<augstums_mm>45</augstums_mm>
+				<price_eur_no_vat>117</price_eur_no_vat>
+			</suboption>
+			<suboption id="7">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>1800</platums_mm>
+				<augstums_mm>45</augstums_mm>
+				<price_eur_no_vat>130.8</price_eur_no_vat>
+			</suboption>
+			<suboption id="8">
+				<garums_mm>2000</garums_mm>
+				<platums_mm>2000</platums_mm>
+				<augstums_mm>45</augstums_mm>
+				<price_eur_no_vat>183.9</price_eur_no_vat>
+			</suboption>
+		</suboptions>
+	</product>
+</products>
