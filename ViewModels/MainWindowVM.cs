@@ -96,7 +96,8 @@ namespace ExcelToXML.ViewModel
         {
             ReadyToRun = false;
 
-            Task task = new Task(() => {
+            new Task(() =>
+            {
 
                 Log += DateTime.Now.ToString() + "\nFile: " + FileName + "\n";
 
@@ -145,20 +146,9 @@ namespace ExcelToXML.ViewModel
                 }
 
                 Log += "\n" + DateTime.Now.ToString() + "\nDone!\n";
-            });
 
-            task.Start();
-            task.ContinueWith(t => 
-            {
                 ReadyToRun = true;
-
-                // AdHoc. Call main Window for redraw UI status
-                Application.Current.Dispatcher.Invoke(() => 
-                {
-                    Application.Current.MainWindow.MoveFocus(new TraversalRequest(FocusNavigationDirection.First));
-                    Application.Current.MainWindow.MoveFocus(new TraversalRequest(FocusNavigationDirection.Last));
-                });
-            });
+            }).Start();
         }
     }
 }
