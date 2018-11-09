@@ -15,10 +15,6 @@ namespace ExcelToXML.Types
 
     public class ProductBlock
     {
-        /// <summary>
-        ///     0 -- regular 
-        ///     1 -- short
-        /// </summary>
         public ProductType productType { get; set; }
         public int worksheet { get; set; }
         public string worksheetName { get; set; }

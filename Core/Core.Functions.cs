@@ -190,9 +190,6 @@ namespace ExcelToXML.Core
         /// <param name="worksheet"></param>
         /// <param name="row"></param>
         /// <returns>
-        ///     0 -- no
-        ///     1 -- yes, way 1 (6 columns)
-        ///     2 -- yes, way 2 (5 columns)
         /// </returns>
         private static ProductType IsNameInThisRow(ExcelObject.Worksheet worksheet, int row)
         {

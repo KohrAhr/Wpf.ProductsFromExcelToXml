@@ -16,6 +16,6 @@
 
         <Button Content="Clear log" Command="{Binding Path=ClearLogCommand}" HorizontalAlignment="Left" Margin="10,96,0,0" VerticalAlignment="Top" Width="292"/>
 
-        <TextBox Margin="10,123,10,10" TextWrapping="Wrap" Text="{Binding Path=Log, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalScrollBarVisibility="Visible" IsReadOnly="True" />
+        <TextBox Margin="10,123,10,10" TextWrapping="Wrap" Text="{Binding Path=Log}" VerticalScrollBarVisibility="Visible" IsReadOnly="True" />
     </Grid>
 </Window>

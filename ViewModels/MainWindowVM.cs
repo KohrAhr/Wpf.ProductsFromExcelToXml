@@ -98,7 +98,6 @@ namespace ExcelToXML.ViewModel
 
             new Task(() =>
             {
-
                 Log += DateTime.Now.ToString() + "\nFile: " + FileName + "\n";
 
                 ExcelFile excelFile = null;
