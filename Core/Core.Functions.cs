@@ -54,33 +54,47 @@ namespace ExcelToXML.Core
                             {
                                 c++;
 
-                                string o1;
-                                string o2;
-                                string o3;
-                                string o4;
-                                string o5;
+                                string o1 = ExcelFunctions.GetString(worksheet, row, 1);
+                                string o2 = ExcelFunctions.GetString(worksheet, row, 3);
+                                string o3 = ExcelFunctions.GetString(worksheet, row, 4);
+                                string o4 = ExcelFunctions.GetString(worksheet, row, 5);
+                                string o5 = ExcelFunctions.GetString(worksheet, row, 6);
 
-                                o1 = ExcelFunctions.GetString(worksheet, row, 1);
-                                o2 = ExcelFunctions.GetString(worksheet, row, 3);
-                                o3 = ExcelFunctions.GetString(worksheet, row, 4);
-                                o4 = ExcelFunctions.GetString(worksheet, row, 5);
-                                o5 = ExcelFunctions.GetString(worksheet, row, 6);
-
-                                if ((!String.IsNullOrEmpty(o1) && c > 1) || String.IsNullOrEmpty(o2) || String.IsNullOrEmpty(o3) || String.IsNullOrEmpty(o4) || String.IsNullOrEmpty(o5))
+                                if (product.productType == 1)
                                 {
-                                    break;
-                                }
+                                    if ((!String.IsNullOrEmpty(o1) && c > 1) || String.IsNullOrEmpty(o2) || String.IsNullOrEmpty(o3) || String.IsNullOrEmpty(o4) || String.IsNullOrEmpty(o5))
+                                    {
+                                        break;
+                                    }
 
-                                // add data
-                                result += String.Format(
-                                    "\n\t\t\t<suboption id=\"{0}\">" +
-                                        "\n\t\t\t\t<garums_mm>{1}</garums_mm>" +
-                                        "\n\t\t\t\t<platums_mm>{2}</platums_mm>" +
-                                        "\n\t\t\t\t<augstums_mm>{3}</augstums_mm>" +
-                                        "\n\t\t\t\t<price_eur_no_vat>{4}</price_eur_no_vat>" +
-                                    "\n\t\t\t</suboption>",
-                                    c, o2, o3, o4, o5
-                                );
+                                    // add data
+                                    result += String.Format(
+                                        "\n\t\t\t<suboption id=\"{0}\">" +
+                                            "\n\t\t\t\t<garums_mm>{1}</garums_mm>" +
+                                            "\n\t\t\t\t<platums_mm>{2}</platums_mm>" +
+                                            "\n\t\t\t\t<augstums_mm>{3}</augstums_mm>" +
+                                            "\n\t\t\t\t<price_eur_no_vat>{4}</price_eur_no_vat>" +
+                                        "\n\t\t\t</suboption>",
+                                        c, o2, o3, o4, o5
+                                    );
+                                }
+                                else
+                                {
+                                    if ((!String.IsNullOrEmpty(o1) && c > 1) || String.IsNullOrEmpty(o2) || String.IsNullOrEmpty(o3) || String.IsNullOrEmpty(o4))
+                                    {
+                                        break;
+                                    }
+
+                                    // add data
+                                    result += String.Format(
+                                        "\n\t\t\t<suboption id=\"{0}\">" +
+                                            "\n\t\t\t\t<garums_mm>{1}</garums_mm>" +
+                                            "\n\t\t\t\t<platums_mm>{2}</platums_mm>" +
+                                            "\n\t\t\t\t<price_eur_no_vat>{3}</price_eur_no_vat>" +
+                                        "\n\t\t\t</suboption>",
+                                        c, o2, o3, o4
+                                    );
+                                }
 
                                 row++;
                             }
@@ -126,7 +140,8 @@ namespace ExcelToXML.Core
                 row++;
 
                 // First match
-                if (IsNameInThisRow(worksheet, row))
+                int isMatch = IsNameInThisRow(worksheet, row);
+                if (isMatch > 0)
                 {
                     // Second match
                     if (IsHeaderInThisRow(worksheet, row + 1))
@@ -144,9 +159,10 @@ namespace ExcelToXML.Core
                         // MaxRow пока не знаю иначе
                         product = new ProductBlock
                         {
+                            productType = isMatch,
                             worksheet = worksheet.Index,
                             worksheetName = worksheet.Name,
-                            name = ExcelFunctions.GetString(worksheet, row, 6),
+                            name = ExcelFunctions.GetString(worksheet, row, isMatch == 1 ? 6 : 5),
                             start = row,
                             end = maxRow
                         };
@@ -172,21 +188,49 @@ namespace ExcelToXML.Core
         /// </summary>
         /// <param name="worksheet"></param>
         /// <param name="row"></param>
-        /// <returns></returns>
-        private static bool IsNameInThisRow(ExcelObject.Worksheet worksheet, int row)
+        /// <returns>
+        ///     0 -- no
+        ///     1 -- yes, way 1 (6 columns)
+        ///     2 -- yes, way 2 (5 columns)
+        /// </returns>
+        private static int IsNameInThisRow(ExcelObject.Worksheet worksheet, int row)
         {
             const int CONST_WORKSHEET_PRODUCT_TITLE_COL_ID = 6;
 
+            int result = 0;
+
+            if (_IsNameInThisRow(worksheet, row, CONST_WORKSHEET_PRODUCT_TITLE_COL_ID))
+            {
+                result = 1;
+            }
+            else
+            if (_IsNameInThisRow(worksheet, row, CONST_WORKSHEET_PRODUCT_TITLE_COL_ID - 1))
+            {
+                result = 2;
+            }
+
+            return result;
+        }
+
+        /// <summary>
+        ///     Support Name in Col #5 or in #6.
+        /// </summary>
+        /// <param name="worksheet"></param>
+        /// <param name="row"></param>
+        /// <param name="col"></param>
+        /// <returns></returns>
+        private static bool _IsNameInThisRow(ExcelObject.Worksheet worksheet, int row, int col)
+        {
             bool result = true;
 
-            // 6th with value
-            result = result && !String.IsNullOrEmpty(ExcelFunctions.GetString(worksheet, row, CONST_WORKSHEET_PRODUCT_TITLE_COL_ID));
+            // This cell has value?
+            result = result && !String.IsNullOrEmpty(ExcelFunctions.GetString(worksheet, row, col));
 
             // "If" for optimization
             if (result)
             {
-                // first 5 cell has empty value
-                for (int x = 1; x < CONST_WORKSHEET_PRODUCT_TITLE_COL_ID; x++)
+                // first celsl has empty value
+                for (int x = 1; x < col; x++)
                 {
                     result = result && String.IsNullOrEmpty(ExcelFunctions.GetString(worksheet, row, x));
 
@@ -211,10 +255,29 @@ namespace ExcelToXML.Core
         {
             bool result = true;
 
-            string[] headers = new string[]
+            string[] headers6 = new string[]
             {
                 "№", "Nosaukums", "Garums\n(mm)", "Platums\n(mm)", "Augstums\n(mm)", "EUR bez PVN"
             };
+
+            string[] headers5 = new string[]
+            {
+                "№", "Nosaukums", "Garums\n(mm)", "Platums\n(mm)", "EUR bez PVN"
+            };
+
+            result = _IsHeaderInThisRow(worksheet, row, headers6);
+
+            if (!result)
+            {
+                result = _IsHeaderInThisRow(worksheet, row, headers5);
+            }
+
+            return result;
+        }
+
+        private static bool _IsHeaderInThisRow(ExcelObject.Worksheet worksheet, int row, string[] headers)
+        {
+            bool result = true;
 
             for (int x = 0; x < headers.Count(); x++)
             {
