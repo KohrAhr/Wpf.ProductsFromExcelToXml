@@ -6,13 +6,16 @@
         xmlns:local="clr-namespace:ExcelToXML"
         WindowStyle="ToolWindow"
         mc:Ignorable="d"
-        Title="EXCEL with products to XML. [NOV/2018]" Height="450" Width="800" MinWidth="350" MinHeight="300" WindowStartupLocation="CenterOwner">
+        Title="EXCEL with products to XML. [NOV/2018]" Height="450" Width="725" MinWidth="625" MinHeight="300" WindowStartupLocation="CenterOwner">
     <Grid>
         <Label Content="Excel file, including full path:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
         <TextBox Height="23" Margin="10,41,10,0" TextWrapping="Wrap" Text="{Binding Path=FileName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" IsEnabled="{Binding Path=ReadyToRun}" />
 
-        <Button Content="Convert" Command="{Binding Path=NewXmlCommand}" x:Name="btnGo" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" IsEnabled="{Binding Path=NewXmlCommandCanExecute}" Width="292"/>
-        
-        <TextBox Margin="10,117,10,10" TextWrapping="Wrap" Text="{Binding Path=Log, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalScrollBarVisibility="Visible" IsReadOnly="True" />
+        <Button Content="Convert" Command="{Binding Path=NewXmlCommand}" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" IsEnabled="{Binding Path=ReadyToRun}" Width="292"/>
+        <Button Content="Select File" Command="{Binding Path=SelectExcelFileCommand}" HorizontalAlignment="Left" Margin="307,69,0,0" VerticalAlignment="Top" IsEnabled="{Binding Path=ReadyToRun}" Width="292"/>
+
+        <Button Content="Clear log" Command="{Binding Path=ClearLogCommand}" HorizontalAlignment="Left" Margin="10,96,0,0" VerticalAlignment="Top" Width="292"/>
+
+        <TextBox Margin="10,123,10,10" TextWrapping="Wrap" Text="{Binding Path=Log, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalScrollBarVisibility="Visible" IsReadOnly="True" />
     </Grid>
 </Window>

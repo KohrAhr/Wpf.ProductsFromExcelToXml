@@ -50,7 +50,6 @@ namespace ExcelToXML.Core
                             // now while match pattern collect data
                             result += "\n\t\t<suboptions>";
 
-                            //result += CollectSubOptions(out row, worksheet);
                             do
                             {
                                 c++;

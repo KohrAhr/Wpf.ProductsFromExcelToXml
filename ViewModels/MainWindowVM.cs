@@ -11,6 +11,7 @@ using System.Windows;
 using System.Windows.Input;
 using ExcelToXML.Core.Major;
 using System.Windows.Threading;
+using Microsoft.Win32;
 
 namespace ExcelToXML.ViewModel
 {
@@ -57,11 +58,15 @@ namespace ExcelToXML.ViewModel
 
         private void InitCommands()
         {
-            NewXmlCommand = new RelayCommand(newXmlCommand, NewXmlCommandCanExecute);
+            NewXmlCommand = new RelayCommand(newXmlCommand);
+            ClearLogCommand = new RelayCommand(clearLogCommand);
+            SelectExcelFileCommand = new RelayCommand(selectExcelFileCommand);
         }
 
         #region Commands
         public ICommand NewXmlCommand { get; set; }
+        public ICommand ClearLogCommand { get; set; }
+        public ICommand SelectExcelFileCommand { get; set; }
         #endregion Commands
 
         private void InitData()
@@ -71,9 +76,20 @@ namespace ExcelToXML.ViewModel
             ReadyToRun = true;
         }
 
-        private bool NewXmlCommandCanExecute(Object o)
+        private void selectExcelFileCommand(Object o)
         {
-            return ReadyToRun;
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "EXCEL files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
+            openFileDialog.InitialDirectory = Environment.CurrentDirectory;
+            if (openFileDialog.ShowDialog() == true)
+            {
+                FileName = openFileDialog.FileName;
+            }
+        }
+
+        private void clearLogCommand(Object o)
+        {
+            Log = "";
         }
 
         private void newXmlCommand(Object o)
@@ -87,6 +103,8 @@ namespace ExcelToXML.ViewModel
                 ExcelFile excelFile = null;
                 try
                 {
+                    productsBlock.Clear();
+
                     excelFile = ExcelFunctions.OpenExcelFile(FileName);
 
                     if (excelFile == null)
@@ -138,6 +156,7 @@ namespace ExcelToXML.ViewModel
                 Application.Current.Dispatcher.Invoke(() => 
                 {
                     Application.Current.MainWindow.MoveFocus(new TraversalRequest(FocusNavigationDirection.First));
+                    Application.Current.MainWindow.MoveFocus(new TraversalRequest(FocusNavigationDirection.Last));
                 });
             });
         }
