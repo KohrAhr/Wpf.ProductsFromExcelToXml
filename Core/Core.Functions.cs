@@ -60,46 +60,43 @@ namespace ExcelToXML.Core
                                 string o4 = ExcelFunctions.GetString(worksheet, row, 5);
                                 string o5 = ExcelFunctions.GetString(worksheet, row, 6);
 
+                                if ((!String.IsNullOrEmpty(o1) && c > 1) || String.IsNullOrEmpty(o2) || String.IsNullOrEmpty(o3) || String.IsNullOrEmpty(o4) || (String.IsNullOrEmpty(o5) && product.productType == ProductType.ptRegular))
+                                {
+                                    break;
+                                }
+
+                                result += String.Format(
+                                    "\n\t\t\t<suboption id=\"{0}\">" +
+                                    "\n\t\t\t\t<garums_mm>{1}</garums_mm>" +
+                                    "\n\t\t\t\t<platums_mm>{2}</platums_mm>",
+                                    c, o2, o3
+                                );
+
                                 if (product.productType == ProductType.ptRegular)
                                 {
-                                    if ((!String.IsNullOrEmpty(o1) && c > 1) || String.IsNullOrEmpty(o2) || String.IsNullOrEmpty(o3) || String.IsNullOrEmpty(o4) || String.IsNullOrEmpty(o5))
-                                    {
-                                        break;
-                                    }
-
                                     // add data
                                     result += String.Format(
-                                        "\n\t\t\t<suboption id=\"{0}\">" +
-                                            "\n\t\t\t\t<garums_mm>{1}</garums_mm>" +
-                                            "\n\t\t\t\t<platums_mm>{2}</platums_mm>" +
-                                            "\n\t\t\t\t<augstums_mm>{3}</augstums_mm>" +
-                                            "\n\t\t\t\t<price_eur_no_vat>{4}</price_eur_no_vat>" +
-                                        "\n\t\t\t</suboption>",
-                                        c, o2, o3, o4, o5
+                                        "\n\t\t\t\t<augstums_mm>{0}</augstums_mm>" +
+                                        "\n\t\t\t\t<price_eur_no_vat>{1}</price_eur_no_vat>",
+                                        o4, o5
                                     );
                                 }
                                 else
                                 if (product.productType == ProductType.ptBed)
                                 {
-                                    if ((!String.IsNullOrEmpty(o1) && c > 1) || String.IsNullOrEmpty(o2) || String.IsNullOrEmpty(o3) || String.IsNullOrEmpty(o4))
-                                    {
-                                        break;
-                                    }
-
                                     // add data
                                     result += String.Format(
-                                        "\n\t\t\t<suboption id=\"{0}\">" +
-                                            "\n\t\t\t\t<garums_mm>{1}</garums_mm>" +
-                                            "\n\t\t\t\t<platums_mm>{2}</platums_mm>" +
-                                            "\n\t\t\t\t<price_eur_no_vat>{3}</price_eur_no_vat>" +
-                                        "\n\t\t\t</suboption>",
-                                        c, o2, o3, o4
+                                        "\n\t\t\t\t<price_eur_no_vat>{0}</price_eur_no_vat>",
+                                        o4
                                     );
                                 }
+
+                                result += "\n\t\t\t</suboption>";
 
                                 row++;
                             }
                             while (true);
+
                             result += "\n\t\t</suboptions>";
                             result += "\n\t</product>";
 
