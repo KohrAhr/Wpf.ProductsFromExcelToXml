@@ -60,7 +60,7 @@ namespace ExcelToXML.Core
                                 string o4 = ExcelFunctions.GetString(worksheet, row, 5);
                                 string o5 = ExcelFunctions.GetString(worksheet, row, 6);
 
-                                if (product.productType == 1)
+                                if (product.productType == ProductType.ptRegular)
                                 {
                                     if ((!String.IsNullOrEmpty(o1) && c > 1) || String.IsNullOrEmpty(o2) || String.IsNullOrEmpty(o3) || String.IsNullOrEmpty(o4) || String.IsNullOrEmpty(o5))
                                     {
@@ -79,6 +79,7 @@ namespace ExcelToXML.Core
                                     );
                                 }
                                 else
+                                if (product.productType == ProductType.ptBed)
                                 {
                                     if ((!String.IsNullOrEmpty(o1) && c > 1) || String.IsNullOrEmpty(o2) || String.IsNullOrEmpty(o3) || String.IsNullOrEmpty(o4))
                                     {
@@ -140,8 +141,8 @@ namespace ExcelToXML.Core
                 row++;
 
                 // First match
-                int isMatch = IsNameInThisRow(worksheet, row);
-                if (isMatch > 0)
+                ProductType isMatch = IsNameInThisRow(worksheet, row);
+                if (isMatch != ProductType.ptUnknown)
                 {
                     // Second match
                     if (IsHeaderInThisRow(worksheet, row + 1))
@@ -162,7 +163,7 @@ namespace ExcelToXML.Core
                             productType = isMatch,
                             worksheet = worksheet.Index,
                             worksheetName = worksheet.Name,
-                            name = ExcelFunctions.GetString(worksheet, row, isMatch == 1 ? 6 : 5),
+                            name = ExcelFunctions.GetString(worksheet, row, isMatch == ProductType.ptRegular ? 6 : 5),
                             start = row,
                             end = maxRow
                         };
@@ -193,20 +194,20 @@ namespace ExcelToXML.Core
         ///     1 -- yes, way 1 (6 columns)
         ///     2 -- yes, way 2 (5 columns)
         /// </returns>
-        private static int IsNameInThisRow(ExcelObject.Worksheet worksheet, int row)
+        private static ProductType IsNameInThisRow(ExcelObject.Worksheet worksheet, int row)
         {
             const int CONST_WORKSHEET_PRODUCT_TITLE_COL_ID = 6;
 
-            int result = 0;
+            ProductType result = ProductType.ptUnknown;
 
             if (_IsNameInThisRow(worksheet, row, CONST_WORKSHEET_PRODUCT_TITLE_COL_ID))
             {
-                result = 1;
+                result = ProductType.ptRegular;
             }
             else
             if (_IsNameInThisRow(worksheet, row, CONST_WORKSHEET_PRODUCT_TITLE_COL_ID - 1))
             {
-                result = 2;
+                result = ProductType.ptBed;
             }
 
             return result;
