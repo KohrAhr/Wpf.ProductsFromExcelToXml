@@ -21,7 +21,7 @@ namespace ExcelToXML.Core
             ExcelObject.Worksheet worksheet = excelFile.sheet.Worksheets[product.worksheet];
             do
             {
-                if (CoreFunctions.IsHeaderInThisRow(worksheet, row))
+                if (IsHeaderInThisRow(worksheet, row))
                 {
                     // Start!
                     do
@@ -30,11 +30,10 @@ namespace ExcelToXML.Core
 
                         string id = ExcelFunctions.GetString(worksheet, row, 1);
 
-                        // Is number in first col?
+                        // Is number in first col? Yes, mean new option
                         if (!String.IsNullOrEmpty(id))
                         {
-                            // Yes, mean new option
-                            int c = 0;
+                            int counter = 0;
 
                             result += "\n\t<product>";
 
@@ -52,15 +51,17 @@ namespace ExcelToXML.Core
 
                             do
                             {
-                                c++;
+                                counter++;
 
                                 string o1 = ExcelFunctions.GetString(worksheet, row, 1);
                                 string o2 = ExcelFunctions.GetString(worksheet, row, 3);
                                 string o3 = ExcelFunctions.GetString(worksheet, row, 4);
+                                // price for ptBed. weight for ptRegular
                                 string o4 = ExcelFunctions.GetString(worksheet, row, 5);
+                                // price for ptRegular
                                 string o5 = ExcelFunctions.GetString(worksheet, row, 6);
 
-                                if ((!String.IsNullOrEmpty(o1) && c > 1) || String.IsNullOrEmpty(o2) || String.IsNullOrEmpty(o3) || String.IsNullOrEmpty(o4) || (String.IsNullOrEmpty(o5) && product.productType == ProductType.ptRegular))
+                                if ((!String.IsNullOrEmpty(o1) && counter > 1) || String.IsNullOrEmpty(o2) || String.IsNullOrEmpty(o3) || String.IsNullOrEmpty(o4) || (String.IsNullOrEmpty(o5) && product.productType == ProductType.ptRegular))
                                 {
                                     break;
                                 }
@@ -69,7 +70,7 @@ namespace ExcelToXML.Core
                                     "\n\t\t\t<suboption id=\"{0}\">" +
                                     "\n\t\t\t\t<garums_mm>{1}</garums_mm>" +
                                     "\n\t\t\t\t<platums_mm>{2}</platums_mm>",
-                                    c, o2, o3
+                                    counter, o2, o3
                                 );
 
                                 if (product.productType == ProductType.ptRegular)
@@ -90,6 +91,10 @@ namespace ExcelToXML.Core
                                         o4
                                     );
                                 }
+                                else
+                                {
+                                    throw new NotImplementedException();
+                                }
 
                                 result += "\n\t\t\t</suboption>";
 
@@ -101,7 +106,7 @@ namespace ExcelToXML.Core
                             result += "\n\t</product>";
 
                             // Step back, because row will be increased on next step
-                            if ((!String.IsNullOrEmpty(ExcelFunctions.GetString(worksheet, row, 1)) && c > 1))
+                            if ((!String.IsNullOrEmpty(ExcelFunctions.GetString(worksheet, row, 1)) && counter > 1))
                             {
                                 row--;
                             }
